@@ -10,3 +10,5 @@
 "unregistered user, bonus equal to limit",5000000,false,500
 "unregistered user, bonus 1 RUR under limit",4999999,false,499
 "unregistered user, amount 1 RUR over limit",5000001,false,500
+"registered user, amount over minimal bonus",2900,true,0
+"unregistered user, amount over minimal bonus",900,false,0
